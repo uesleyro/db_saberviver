@@ -416,3 +416,13 @@ INSERT INTO  DADOS_URBANOS_ESCOLARIDADE_MORADORES (id, descricao) values
 (5, 'Ensino superior'),
 (6, 'Ensino superior incompleto'),
 (7, 'Pós graduação');
+
+CREATE TABLE DADOS_URBANOS_SEXO_MORADORES (
+	id int not null primary key,
+	descricao varchar(160)
+);
+
+INSERT INTO  DADOS_URBANOS_SEXO_MORADORES (id, descricao) values
+(0, 'Feminino'),
+(1, 'Masculino');
+ 
