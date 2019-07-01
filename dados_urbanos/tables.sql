@@ -1,3 +1,9 @@
+CREATE DATABASE saberviver
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1;
+	
 CREATE TABLE DADOS_URBANOS (
     interview__key  VARCHAR(20) NULL,
     interview__id   VARCHAR(32) NULL,
@@ -370,3 +376,28 @@ CREATE TABLE DADOS_URBANOS_R_EVENTO_FESTIVO (
 	ESPEC_EVENTOS_FESTIVO	 VARCHAR(120) NULL,
 	PERIO_EVENTO_FESTIVO  VARCHAR(60) NULL
 );
+
+CREATE TABLE DADOS_URBANOS_FAIXA_ET_MORADORES (
+	id int not null primary key,
+	descricao varchar(160)
+);
+
+INSERT INTO DADOS_URBANOS_FAIXA_ET_MORADORES (id, descricao)
+values 
+ (1, 'Acima de 80 anos'), 
+ (2, '75 a 79 anos'), 
+ (3, '70 a 74 anos'), 
+ (4, '65 a 69 anos'), 
+ (5, '60 a 64 anos'), 
+ (6, '55 a 59 anos'), 
+ (7, '50 a 54 anos'), 
+ (8, '45 a 49 anos'), 
+ (9, '40 a 44 anos'), 
+ (10, '35 a 39 anos'), 
+ (11, '30 a 34 anos'), 
+ (12, '25 a 29 anos'), 
+ (13, '20 a 24 anos'), 
+ (14, '15 a 19 anos'), 
+ (15, '10 a 14 anos'), 
+ (16, '5 a 9 anos'), 
+ (17, '0 a 4 anos');
