@@ -401,3 +401,18 @@ values
  (15, '10 a 14 anos'), 
  (16, '5 a 9 anos'), 
  (17, '0 a 4 anos');
+ 
+CREATE TABLE DADOS_URBANOS_ESCOLARIDADE_MORADORES (
+	id int not null primary key,
+	descricao varchar(160)
+);
+
+INSERT INTO  DADOS_URBANOS_ESCOLARIDADE_MORADORES (id, descricao) values
+(0, 'Analfabeto'),
+(1, 'Ensino fundamental'),
+(2, 'Ensino fundamental incompleto'),
+(3, 'Ensino médio'),
+(4, 'Ensino médio incompleto'),
+(5, 'Ensino superior'),
+(6, 'Ensino superior incompleto'),
+(7, 'Pós graduação');
