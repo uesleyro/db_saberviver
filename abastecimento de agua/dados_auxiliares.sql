@@ -305,3 +305,9 @@ INSERT INTO ABASTECIMENTO_AGUA_MUNIC_MANANCIAL (ID, DESCRICAO) VALUES
 (17, 'Chupinguaia'),
 (18, 'Pimenta Bueno'),
 (19, 'Pimenteiras do Oeste');
+
+INSERT INTO ABASTECIMENTO_AGUA_NUCLEO_MANANCIAL (ID, DESCRICAO) VALUES
+(0, 'Núcleo Massaco'),
+(1, 'Núcleo Mamoré'),
+(2, 'Núcleo Machado'),
+(3, 'Núcleo Colorado');
