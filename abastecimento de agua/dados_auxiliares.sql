@@ -284,3 +284,24 @@ INSERT INTO ABASTECIMENTO_AGUA_PRESTADOR_SERVICOS7 (ID, DESCRICAO) VALUES
 INSERT INTO ABASTECIMENTO_AGUA_PLAN_DIRETOR_EXIST (ID, DESCRICAO) VALUES
 (0, 'SIM'),
 (1, 'NÃO');
+
+INSERT INTO ABASTECIMENTO_AGUA_MUNIC_MANANCIAL (ID, DESCRICAO) VALUES
+(1, 'Guajará-Mirim'),
+(2, 'Costa Marques'),
+(3, 'Castanheiras'),
+(4, 'Ministro Andreazza'),
+(5, 'Ouro Preto do Oeste'),
+(6, 'Teixeirópolis'),
+(7, 'Urupá'),
+(8, 'Vale do Paraíso'),
+(9, 'Alta Floresta'),
+(10, 'Alto Alegre dos Parecis'),
+(11, 'Novo Horizonte do Oeste'),
+(12, 'Parecis'),
+(13, 'Primavera de Rondônia'),
+(14, 'São Felipe'),
+(15, 'Cabixi'),
+(16, 'Colorado do Oeste'),
+(17, 'Chupinguaia'),
+(18, 'Pimenta Bueno'),
+(19, 'Pimenteiras do Oeste');
