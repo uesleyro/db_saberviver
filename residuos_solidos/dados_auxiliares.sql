@@ -1,0 +1,492 @@
+INSERT INTO RESIDUOS_SOLIDOS_NUCLEO (ID, DESCRICAO) VALUES
+(0, 'Núcleo Massaco'),
+(1, 'Núcleo Mamoré'),
+(2, 'Núcleo Machado'),
+(3, 'Núcleo Colorado');
+
+INSERT INTO RESIDUOS_SOLIDOS_MUNICIPIO (ID, DESCRICAO) VALUES
+(1, 'Guajará-Mirim'),
+(2, 'Costa Marques'),
+(3, 'Castanheiras'),
+(4, 'Ministro Andreazza'),
+(5, 'Ouro Preto do Oeste'),
+(6, 'Teixeirópolis'),
+(7, 'Urupá'),
+(8, 'Vale do Paraíso'),
+(9, 'Alta Floresta'),
+(10, 'Alto Alegre dos Parecis'),
+(11, 'Novo Horizonte do Oeste'),
+(12, 'Parecis'),
+(13, 'Primavera de Rondônia'),
+(14, 'São Felipe'),
+(15, 'Cabixi'),
+(16, 'Colorado do Oeste'),
+(17, 'Chupinguaia'),
+(18, 'Pimenta Bueno'),
+(19, 'Pimenteiras do Oeste');
+
+INSERT INTO RESIDUOS_SOLIDOS_REGULAMENTOS_EXIST (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_ESTUDOS_TECNICOS (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_PROJET_TECNICOS (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_ASSE_TEC_SLU (ID, DESCRICAO) VALUES
+(0, 'SIM'),
+(1, 'NÃO');
+
+INSERT INTO RESIDUOS_SOLIDOS_PREST_ASSE_TEC_SLU (ID, DESCRICAO) VALUES
+(0, 'Universidade'),
+(1, 'Governo Estadual'),
+(2, 'Empresa Privada'),
+(3, 'Centro de Pesquisa'),
+(4, 'Outro Município'),
+(5, 'Governos Federal'),
+(6, 'ONG'),
+(7, 'Outro');
+
+INSERT INTO RESIDUOS_SOLIDOS_EXIST_SET_FUN_TRAB_SIST (ID, DESCRICAO) VALUES
+(1, 'Sim, há uma divisão de setores e funcionários para trabalharem no esgotamento.'),
+(0, 'Não há uma divisão de setores e/ou funcionários para trabalharem no esgotamento.');
+
+INSERT INTO RESIDUOS_SOLIDOS_CAPACT_FUNC_SIST_ESGOT (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(0, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_ESC_RESP_GRS (ID, DESCRICAO) VALUES
+(0, 'Pós-graduação'),
+(1, 'Superior completo'),
+(2, 'Médio completo'),
+(3, 'Fundamental completo'),
+(4, 'Fundamental incompleto');
+
+INSERT INTO RESIDUOS_SOLIDOS_SIST_COB_SERV_RES_SOL (ID, DESCRICAO) VALUES
+(0, 'Incluído no IPTU'),
+(1, 'Tarifa'),
+(2, 'Taxa específica'),
+(3, 'Não cobrado'),
+(4, 'Outro');
+
+INSERT INTO RESIDUOS_SOLIDOS_MESMO_SIST_COB (ID, DESCRICAO) VALUES
+(0, 'SIM'),
+(1, 'NÃO');
+
+INSERT INTO RESIDUOS_SOLIDOS_SITUACAO_PLANO (ID, DESCRICAO) VALUES
+(1, 'Implementado'),
+(2, 'A ser implementado');
+
+INSERT INTO RESIDUOS_SOLIDOS_REVISAO_PLANO (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_SITUACAO_PROJ (ID, DESCRICAO) VALUES
+(1, 'Implementado'),
+(2, 'A ser implementado');
+
+INSERT INTO RESIDUOS_SOLIDOS_ACOND_PERF_CORT (ID, DESCRICAO) VALUES
+(0, 'SIM'),
+(1, 'NÃO');
+
+INSERT INTO RESIDUOS_SOLIDOS_LOCAL_ARM_INT_EXT (ID, DESCRICAO) VALUES
+(0, 'SIM'),
+(1, 'NÃO');
+
+INSERT INTO RESIDUOS_SOLIDOS_NATUREZA_JURIDICA (ID, DESCRICAO) VALUES
+(1, 'Administração Pública Direta'),
+(2, 'Empresa Pública Específica'),
+(3, 'Empresa de Economia Mista que desempenha especificamente as funções Limpeza Pública'),
+(4, 'Autarquia'),
+(5, 'Empresa Privada'),
+(6, 'Solução consorciada');
+
+INSERT INTO RESIDUOS_SOLIDOS_TIPO_CONTRATO (ID, DESCRICAO) VALUES
+(1, 'Concessão'),
+(2, 'Terciarização'),
+(3, 'Não há contrato');
+
+INSERT INTO RESIDUOS_SOLIDOS_INSTALACOES_ADM (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_CONSERVACAO_ADM (ID, DESCRICAO) VALUES
+(1, 'Regular'),
+(2, 'Ótimo'),
+(3, 'Insuficiente');
+
+INSERT INTO RESIDUOS_SOLIDOS_PLANO_GERENCIA (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_RESP_SERVICO (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_PADRONIZACAO_COLETA (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_PADRONIZACAO_ACOND (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_PADRONIZACAO_ACOND (ID, DESCRICAO) VALUES
+(1, 'Os resíduos são previamente amontoados.'),
+(2, 'Os resíduos são coletados de lixeira a lixeira.'),
+(3, 'Outro');
+
+INSERT INTO RESIDUOS_SOLIDOS_ENV_OU_RECE_RESI_MUN (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(0, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_UNID_TRANSFERENCIA (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_ACONDICIONAMENTO_TP (ID, DESCRICAO) VALUES
+(1, 'Contêineres'),
+(2, 'Fosso de acumulação'),
+(3, 'Disposição direta no solo'),
+(4, 'Disposição em pátio coberto e revestimento'),
+(5, 'Outro');
+
+INSERT INTO RESIDUOS_SOLIDOS_COMPACT_RESIDUO (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_FREQ_TRANSPORTE (ID, DESCRICAO) VALUES
+(1, '1x por semana'),
+(2, '2x por semana'),
+(3, '3x por semana'),
+(4, '5x por semana'),
+(5, 'Outro');
+
+INSERT INTO RESIDUOS_SOLIDOS_PRESENCA_CATADORES (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_SEGREGACAO_MATERIAIS (ID, DESCRICAO) VALUES
+(0, 'SIM'),
+(1, 'NÃO');
+
+INSERT INTO RESIDUOS_SOLIDOS_SERV_PUB_COL_RCC (ID, DESCRICAO) VALUES
+(0, 'SIM'),
+(1, 'NÃO');
+
+INSERT INTO RESIDUOS_SOLIDOS_COMO_POPUL_ACESSO (ID, DESCRICAO) VALUES
+(0, 'Coleta frequente'),
+(1, 'Quando solicitado'),
+(2, 'Caçambas estacionárias'),
+(3, 'Outro');
+
+INSERT INTO RESIDUOS_SOLIDOS_REAL_PREST_SERV_RCC (ID, DESCRICAO) VALUES
+(0, 'Pela própria prefeitura'),
+(1, 'Por empresa contratada');
+
+INSERT INTO RESIDUOS_SOLIDOS_UNID_TRANSP_RST (ID, DESCRICAO) VALUES
+(0, 'Porto'),
+(1, 'Aeroporto'),
+(2, 'Terminal Alfandegário'),
+(3, 'Terminal rodoviários'),
+(4, 'Terminal ferroviários e passagens de fronteira');
+
+INSERT INTO RESIDUOS_SOLIDOS_SIST_COL_ESP_RST (ID, DESCRICAO) VALUES
+(0, 'SIM'),
+(1, 'NÃO');
+
+INSERT INTO RESIDUOS_SOLIDOS_SIST_TRAT_ESP_RST (ID, DESCRICAO) VALUES
+(0, 'SIM'),
+(1, 'NÃO');
+
+INSERT INTO RESIDUOS_SOLIDOS_SIST_DEST_ESP_RST (ID, DESCRICAO) VALUES
+(0, 'SIM'),
+(1, 'NÃO');
+
+INSERT INTO RESIDUOS_SOLIDOS_DEST_CONJ_RES_DOM (ID, DESCRICAO) VALUES
+(0, 'SIM'),
+(1, 'Outro');
+
+INSERT INTO RESIDUOS_SOLIDOS_PL_GER_RES_RSC (ID, DESCRICAO) VALUES
+(0, 'SIM'),
+(1, 'NÃO');
+
+INSERT INTO RESIDUOS_SOLIDOS_LIC_AMB_RSC (ID, DESCRICAO) VALUES
+(0, 'SIM'),
+(1, 'NÃO');
+
+INSERT INTO RESIDUOS_SOLIDOS_ORG_LIC_AMB_RSC (ID, DESCRICAO) VALUES
+(0, 'Secretaria Estadual de Desenvolvimento Ambiental | SEDAM'),
+(1, 'Secretaria do Município');
+
+INSERT INTO RESIDUOS_SOLIDOS_CONHEC_QUANT_RES_RSC (ID, DESCRICAO) VALUES
+(0, 'SIM'),
+(1, 'NÃO');
+
+INSERT INTO RESIDUOS_SOLIDOS_EMP_COLETORA_RSC (ID, DESCRICAO) VALUES
+(0, 'A coleta é executada Prefeitura ou empresa contratada por esta'),
+(1, 'A coleta é realiza por empresa contratada diretamente pelo empreendedor'),
+(2, 'Outros');
+
+INSERT INTO RESIDUOS_SOLIDOS_RES_PERIG_RSC (ID, DESCRICAO) VALUES
+(0, 'SIM'),
+(1, 'NÃO');
+
+INSERT INTO RESIDUOS_SOLIDOS_SEG_RES_PER_RSC (ID, DESCRICAO) VALUES
+(0, 'SIM'),
+(1, 'NÃO');
+
+INSERT INTO RESIDUOS_SOLIDOS_GER_COM_DOM_RSC (ID, DESCRICAO) VALUES
+(0, 'Sim | Os resíduos recebem o mesmo tratamento do resíduo doméstico'),
+(1, 'Não | Há resíduos que merecem tratamento diferenciado');
+
+INSERT INTO RESIDUOS_SOLIDOS_LIC_AMB_RSI (ID, DESCRICAO) VALUES
+(0, 'SIM'),
+(1, 'NÃO');
+
+INSERT INTO RESIDUOS_SOLIDOS_ORG_LIC_AMB_RSI (ID, DESCRICAO) VALUES
+(0, 'Secretaria Estadual de Desenvolvimento Ambiental | SEDAM'),
+(1, 'Secretaria do Município');
+
+
+INSERT INTO RESIDUOS_SOLIDOS_PLANO_GER_RES_RSI (ID, DESCRICAO) VALUES
+(0, 'SIM'),
+(1, 'NÃO');
+
+INSERT INTO RESIDUOS_SOLIDOS_LOC_COL_SELET (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(0, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_SIT_COL_SELET (ID, DESCRICAO) VALUES
+(1, 'Em Planejamento'),
+(2, 'Coleta Suspensa'),
+(3, 'Ativa');
+
+INSERT INTO RESIDUOS_SOLIDOS_EXIST_CAMP_COM_LIXO (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(0, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_INF_RES_COBER (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(0, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_INF_PES_RES_COBER (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(0, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_QUAN_MAT_REC_COLET (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(0, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_PART_POPU_COLE_SELT (ID, DESCRICAO) VALUES
+(1, 'Boa'),
+(2, 'Regular'),
+(3, 'Com Resistência');
+
+INSERT INTO RESIDUOS_SOLIDOS_TRIA_MAT_DEST_FI (ID, DESCRICAO) VALUES
+(1, 'Existe triagem dos Materiais Recicláveis'),
+(2, 'Em Planejamento'),
+(3, 'Triagem Suspensa'),
+(4, 'Triagem somente na fonte');
+
+INSERT INTO RESIDUOS_SOLIDOS_AREA_ABRAN_COLE_SEL (ID, DESCRICAO) VALUES
+(1, 'Todo Município'),
+(2, 'Bairros Selecionados'),
+(3, 'Somente o Distrito Sede');
+
+INSERT INTO RESIDUOS_SOLIDOS_SIST_COB (ID, DESCRICAO) VALUES
+(0, 'Incluído no IPTU'),
+(1, 'Tarifa'),
+(2, 'Taxa específica'),
+(3, 'Não cobrado'),
+(4, 'Outro');
+
+INSERT INTO RESIDUOS_SOLIDOS_FUNCAODOFUNCIONARIO (ID, DESCRICAO) VALUES
+(0, 'Administrativo/financeiro'),
+(1, 'Operador'),
+(2, 'Gerência'),
+(3, 'Supervisor'),
+(4, 'Outro');
+
+INSERT INTO RESIDUOS_SOLIDOS_SITUACAOCONTRATUA (ID, DESCRICAO) VALUES
+(0, 'Próprio'),
+(1, 'Terceirizado');
+
+INSERT INTO RESIDUOS_SOLIDOS_FREQ_COLETA_RSD_1 (ID, DESCRICAO) VALUES
+(1, 'Diária'),
+(2, '3x Semana'),
+(3, '2x Semana'),
+(4, '1x Semana');
+
+INSERT INTO RESIDUOS_SOLIDOS_TURNO_COLETA_RSD (ID, DESCRICAO) VALUES
+(1, 'Diurno'),
+(2, 'Noturno');
+
+INSERT INTO RESIDUOS_SOLIDOS_SIST_LOGIS_REVER_RESI (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(0, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_CENT_RCPC_TRIA_RESI (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(0, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_CM_SERV_CLT_RESI (ID, DESCRICAO) VALUES
+(1, 'A prefeitura efetua a coleta'),
+(2, 'Empresa particular efetua a coleta'),
+(3, 'Entrega em pontos voluntários'),
+(4, 'Outros');
+
+INSERT INTO RESIDUOS_SOLIDOS_QNT_GRD_INFO (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(0, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_EXIG_TRIP_LVG_EMBLGS (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(0, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_PROC_TRAT_TRANS_RESI (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(0, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_QUAN_MEN_COND (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(0, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_COND_CONSER_VEICU (ID, DESCRICAO) VALUES
+(1, 'Excelente'),
+(2, 'Boa'),
+(3, 'Regular'),
+(4, 'Precária'),
+(3, 'Fora de operação por defeito');
+
+INSERT INTO RESIDUOS_SOLIDOS_COND_GALPOES (ID, DESCRICAO) VALUES
+(1, 'Excelente'),
+(2, 'Boa'),
+(3, 'Regular'),
+(4, 'Precária');
+
+INSERT INTO RESIDUOS_SOLIDOS_COND_PRENSA (ID, DESCRICAO) VALUES
+(1, 'Excelente'),
+(2, 'Boa'),
+(3, 'Regular'),
+(4, 'Precária'),
+(3, 'Fora de operação por defeito');
+
+INSERT INTO RESIDUOS_SOLIDOS_ITEM_COMERCIALIZADO (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(0, 'Não, somente permuta, troca, etc');
+
+INSERT INTO RESIDUOS_SOLIDOS_OPERACAO_ENCERRADA (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_TRAT_LIQ_PERCOLADOS (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não'),
+(3, 'Não há geração');
+
+INSERT INTO RESIDUOS_SOLIDOS_RES_CHORUME (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_POCOS_MONITORAMENTO (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_PROTECAO_CERCA (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_CONSEVACAO_CERCA (ID, DESCRICAO) VALUES
+(1, 'Regular'),
+(2, 'Ótimo'),
+(3, 'Insuficiente');
+
+INSERT INTO RESIDUOS_SOLIDOS_COMPAC_RES_DISPOST (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não'),
+(3, 'Não se apica');
+
+INSERT INTO RESIDUOS_SOLIDOS_COBERTURA_RESIDUOS (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não'),
+(3, 'Não se apica');
+
+INSERT INTO RESIDUOS_SOLIDOS_GRAMA_TALUDES (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não'),
+(3, 'Não se apica');
+
+INSERT INTO RESIDUOS_SOLIDOS_MANUT_VIGILANCIA (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_AREA_PROTECAO (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_AREA_INUNDACAO (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_EXISTENCIA_QUEIMADA (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_PRESENCA_ANIMAIS (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_PRESENCA_PASSAROS (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_PRESENCA_VETORES (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_AREA_LIXAO (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_RESIDENCIAS_LIXOES (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_RES_PROX_LIXOES (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+
+INSERT INTO RESIDUOS_SOLIDOS_CATADORES_LOCAL (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_CATADORES_MENORES (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_CATADORES_RESIDENCIA (ID, DESCRICAO) VALUES
+(1, 'Nas proximidades dos lixões (até 1 km)'),
+(2, 'Distantes da área do lixão');
+
+INSERT INTO RESIDUOS_SOLIDOS_TEC_PROCESSAMENTO (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_GERACAO_EFLUENTES (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_GERACAO_GASES (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
+INSERT INTO RESIDUOS_SOLIDOS_RESIDUOS_PROCESSO (ID, DESCRICAO) VALUES
+(1, 'Sim'),
+(2, 'Não');
+
